@@ -1,0 +1,10 @@
+{
+  "name": "claudio-local-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "powershell -ExecutionPolicy Bypass -File ./start-local.ps1",
+    "status": "node ./scripts/local-control.js status",
+    "doctor": "node ./scripts/local-control.js doctor"
+  }
+}

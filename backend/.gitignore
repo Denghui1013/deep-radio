@@ -1,0 +1,8 @@
+node_modules/
+.env
+npm-debug.log*
+yarn-error.log*
+src/data/*.db
+src/data/*.db-*
+src/data/netease.cookies.txt
+src/temp_audio/*.mp3

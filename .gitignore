@@ -1,0 +1,53 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+**/coverage/
+
+# Runtime temp
+tmp/
+temp/
+.cache/
+**/.cache/
+
+# Databases and local data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Project-specific sensitive/local runtime files
+backend/src/data/netease.cookies.txt
+backend/src/temp_audio/*.mp3
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
